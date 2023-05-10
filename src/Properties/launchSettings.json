@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ModbusSlaveSimulator": {
+      "commandName": "Project",
+      "commandLineArgs": "config-2-devices.json --mode tcp"
+    }
+  }
+}

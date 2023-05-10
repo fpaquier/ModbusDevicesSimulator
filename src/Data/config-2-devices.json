@@ -1,0 +1,78 @@
+{
+  "Mode": "tcp",
+  "SerialSettings": {
+    "Port": "COM6",
+    "BaudRate": 9600,
+    "DataBits": 8,
+    "Parity": "Odd",
+    "StopBits": "One"
+  },
+  "TcpSettings": {
+    "Address": "127.0.0.1",
+    "Port": 502
+  },
+  "Devices": [
+    {
+      "SlaveId": 1,
+      "DataFile": "data-1.csv",
+      "shiftOffest": false,
+      "Addresses": [
+        {
+          "Name": "flow-1-q",
+          "Function": 4,
+          "DataType": "INT",
+          "Offset": 1,
+          "Coeff": 1,
+          "Description": "Flow Rate"
+        },
+        {
+          "Name": "flow-1-v",
+          "Function": 4,
+          "DataType": "INT",
+          "Offset": 2,
+          "Coeff": 1,
+          "Description": "Cumulative Volume"
+        },
+        {
+          "Name": "flow-1-t",
+          "Function": 4,
+          "DataType": "INT",
+          "Offset": 3,
+          "Coeff": 1,
+          "Description": "Temperature"
+        }
+      ]
+    },
+    {
+      "SlaveId": 11,
+      "DataFile": "data-2.csv",
+      "shiftOffest": false,
+      "Addresses": [
+        {
+          "Name": "flow-1-q",
+          "Function": 4,
+          "DataType": "INT",
+          "Offset": 1,
+          "Coeff": 1,
+          "Description": "Flow Rate"
+        },
+        {
+          "Name": "flow-1-v",
+          "Function": 4,
+          "DataType": "INT",
+          "Offset": 2,
+          "Coeff": 1,
+          "Description": "Cumulative Volume"
+        },
+        {
+          "Name": "flow-1-t",
+          "Function": 4,
+          "DataType": "INT",
+          "Offset": 3,
+          "Coeff": 1,
+          "Description": "Temperature"
+        }
+      ]
+    }
+  ]
+}

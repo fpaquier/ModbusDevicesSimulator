@@ -1,17 +1,33 @@
 # Modbus Devices Simulator
 
-This utility is able to simulate several Modbus devices on a single network (TCP or RTU).
+This utility is able to simulate several Modbus devices on a common network (TCP or RTU).
+
+![Overview](./doc/.attachments/overview.png)
 
 ## References
 
-This sample is based on:
+This project has been possible thanks to:
 
-- [modbusPlcSimulator](https://github.com/alongL/modbusPlcSimulator) project.
-- It uses [NModbus 3.0.78](https://www.nuget.org/packages/NModbus)
+- [NModbus 3.0.78](https://www.nuget.org/packages/NModbus)
+
+- [modbusPlcSimulator](https://github.com/alongL/modbusPlcSimulator).
 
 ## How to use
 
-launch it from the command prompt with command like: `ModbusDevicesSimulator --config my-config.json`
+Quick Launch: `ModbusDevicesSimulator my-config.json`
+
+```
+Usage:
+  ModbusDevicesSimulator <config-file> [options]
+
+Arguments:
+  <config-file>  Config file to use.
+
+Options:
+  --mode <rtu|tcp>  network mode to use.
+  --version         Show version information
+  -?, -h, --help    Show help and usage information
+```
 
 ### config file
 

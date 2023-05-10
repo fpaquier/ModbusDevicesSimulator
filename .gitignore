@@ -1,0 +1,11 @@
+# visual studio folders
+.vs*/
+/**/bin
+/**/obj
+
+
+# binaries
+*.dll
+*.exe
+
+

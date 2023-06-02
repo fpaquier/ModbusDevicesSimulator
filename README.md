@@ -2,6 +2,8 @@
 
 This utility is able to simulate several Modbus devices on a common network (TCP or RTU).
 
+https://github.com/fpaquier/ModbusDevicesSimulator/actions/workflows/dotnet-desktop.yml/badge.svg
+
 ![Overview](./doc/.attachments/overview.png)
 
 ## References
